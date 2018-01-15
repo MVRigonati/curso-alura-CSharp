@@ -1,0 +1,7 @@
+C:\Users\Acer\source\repos\BhaskaraAlura\BhaskaraAlura\bin\Debug\BhaskaraAlura.exe.config
+C:\Users\Acer\source\repos\BhaskaraAlura\BhaskaraAlura\bin\Debug\BhaskaraAlura.exe
+C:\Users\Acer\source\repos\BhaskaraAlura\BhaskaraAlura\bin\Debug\BhaskaraAlura.pdb
+C:\Users\Acer\source\repos\BhaskaraAlura\BhaskaraAlura\obj\Debug\BhaskaraAlura.csprojResolveAssemblyReference.cache
+C:\Users\Acer\source\repos\BhaskaraAlura\BhaskaraAlura\obj\Debug\BhaskaraAlura.csproj.CoreCompileInputs.cache
+C:\Users\Acer\source\repos\BhaskaraAlura\BhaskaraAlura\obj\Debug\BhaskaraAlura.exe
+C:\Users\Acer\source\repos\BhaskaraAlura\BhaskaraAlura\obj\Debug\BhaskaraAlura.pdb

@@ -1,0 +1,7 @@
+C:\Users\Acer\source\repos\CalculoImpostoAlura\CalculoImpostoAlura\bin\Debug\CalculoImpostoAlura.exe.config
+C:\Users\Acer\source\repos\CalculoImpostoAlura\CalculoImpostoAlura\bin\Debug\CalculoImpostoAlura.exe
+C:\Users\Acer\source\repos\CalculoImpostoAlura\CalculoImpostoAlura\bin\Debug\CalculoImpostoAlura.pdb
+C:\Users\Acer\source\repos\CalculoImpostoAlura\CalculoImpostoAlura\obj\Debug\CalculoImpostoAlura.csprojResolveAssemblyReference.cache
+C:\Users\Acer\source\repos\CalculoImpostoAlura\CalculoImpostoAlura\obj\Debug\CalculoImpostoAlura.csproj.CoreCompileInputs.cache
+C:\Users\Acer\source\repos\CalculoImpostoAlura\CalculoImpostoAlura\obj\Debug\CalculoImpostoAlura.exe
+C:\Users\Acer\source\repos\CalculoImpostoAlura\CalculoImpostoAlura\obj\Debug\CalculoImpostoAlura.pdb

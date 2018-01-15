@@ -1,0 +1,7 @@
+C:\Users\Acer\Documents\Códigos\C#\Alura\Manager\Manager\bin\Debug\Manager.exe.config
+C:\Users\Acer\Documents\Códigos\C#\Alura\Manager\Manager\bin\Debug\Manager.exe
+C:\Users\Acer\Documents\Códigos\C#\Alura\Manager\Manager\bin\Debug\Manager.pdb
+C:\Users\Acer\Documents\Códigos\C#\Alura\Manager\Manager\obj\Debug\Manager.csprojResolveAssemblyReference.cache
+C:\Users\Acer\Documents\Códigos\C#\Alura\Manager\Manager\obj\Debug\Manager.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Documents\Códigos\C#\Alura\Manager\Manager\obj\Debug\Manager.exe
+C:\Users\Acer\Documents\Códigos\C#\Alura\Manager\Manager\obj\Debug\Manager.pdb
