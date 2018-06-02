@@ -1,14 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using Caelum.CaixaEletronico.Contas;
+using Caelum.CaixaEletronico.Usuarios;
 
-namespace AluraForm {
+namespace Caelum.CaixaEletronico {
     public partial class Form1 : Form {
 
         Conta conta1;
@@ -37,7 +32,7 @@ namespace AluraForm {
                 atualizaSaldo();
                 valorBox.Text = "";
 
-            } catch (FormatException ex) {
+            } catch (FormatException) {
                 MessageBox.Show("Valor não esta dentro dos padrões, digite um numero.");
                 valorBox.Text = "";
             }
@@ -57,11 +52,12 @@ namespace AluraForm {
                 atualizaSaldo();
                 valorBox.Text = "";
 
-            } catch (FormatException ex) {
+            } catch (FormatException) {
                 MessageBox.Show("Valor não esta dentro dos padrões, digite um numero.");
                 valorBox.Text = "";
             }
 
         }
+
     }
 }

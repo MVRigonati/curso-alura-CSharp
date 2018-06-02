@@ -19,3 +19,16 @@ C:\Users\Acer\Documents\Códigos\C#\Alura\AluraForm\AluraForm\obj\Debug\AluraFor
 C:\Users\Acer\Documents\Códigos\C#\Alura\AluraForm\AluraForm\bin\Debug\AluraForm.exe.config
 C:\Users\Acer\Documents\Códigos\C#\Alura\AluraForm\AluraForm\bin\Debug\AluraForm.exe
 C:\Users\Acer\Documents\Códigos\C#\Alura\AluraForm\AluraForm\bin\Debug\AluraForm.pdb
+C:\Users\Acer\Documents\Códigos\C#\curso-alura-CSharp\AluraForm\AluraForm\obj\Debug\AluraForm.csprojResolveAssemblyReference.cache
+C:\Users\Acer\Documents\Códigos\C#\curso-alura-CSharp\AluraForm\AluraForm\obj\Debug\Caelum.CaixaEletronico.Form1.resources
+C:\Users\Acer\Documents\Códigos\C#\curso-alura-CSharp\AluraForm\AluraForm\obj\Debug\Caelum.CaixaEletronico.Form2.resources
+C:\Users\Acer\Documents\Códigos\C#\curso-alura-CSharp\AluraForm\AluraForm\obj\Debug\AluraForm.Properties.Resources.resources
+C:\Users\Acer\Documents\Códigos\C#\curso-alura-CSharp\AluraForm\AluraForm\obj\Debug\AluraForm.csproj.GenerateResource.Cache
+C:\Users\Acer\Documents\Códigos\C#\curso-alura-CSharp\AluraForm\AluraForm\obj\Debug\AluraForm.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Documents\Códigos\C#\curso-alura-CSharp\AluraForm\AluraForm\bin\Debug\AluraForm.exe.config
+C:\Users\Acer\Documents\Códigos\C#\curso-alura-CSharp\AluraForm\AluraForm\bin\Debug\AluraForm.exe
+C:\Users\Acer\Documents\Códigos\C#\curso-alura-CSharp\AluraForm\AluraForm\bin\Debug\AluraForm.pdb
+C:\Users\Acer\Documents\Códigos\C#\curso-alura-CSharp\AluraForm\AluraForm\obj\Debug\AluraForm.exe
+C:\Users\Acer\Documents\Códigos\C#\curso-alura-CSharp\AluraForm\AluraForm\obj\Debug\AluraForm.pdb
+C:\Users\Acer\Documents\Códigos\C#\curso-alura-CSharp\AluraForm\AluraForm\obj\Debug\AluraForm.Form3.resources
+C:\Users\Acer\Documents\Códigos\C#\curso-alura-CSharp\AluraForm\AluraForm\obj\Debug\AluraForm.CadastroDeConta.resources

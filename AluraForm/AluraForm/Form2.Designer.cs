@@ -1,4 +1,4 @@
-﻿namespace AluraForm {
+﻿namespace Caelum.CaixaEletronico {
     partial class Form2 {
         /// <summary>
         /// Required designer variable.
@@ -33,6 +33,7 @@
             this.tranferenciaCombo = new System.Windows.Forms.ComboBox();
             this.button3 = new System.Windows.Forms.Button();
             this.valorTransfereBox = new System.Windows.Forms.TextBox();
+            this.addNewConta = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // contasCombo
@@ -117,11 +118,22 @@
             this.valorTransfereBox.Size = new System.Drawing.Size(100, 20);
             this.valorTransfereBox.TabIndex = 10;
             // 
+            // addNewConta
+            // 
+            this.addNewConta.Location = new System.Drawing.Point(204, 250);
+            this.addNewConta.Name = "addNewConta";
+            this.addNewConta.Size = new System.Drawing.Size(75, 40);
+            this.addNewConta.TabIndex = 11;
+            this.addNewConta.Text = "Adicionar Nova Conta";
+            this.addNewConta.UseVisualStyleBackColor = true;
+            this.addNewConta.Click += new System.EventHandler(this.addNewConta_Click);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(337, 302);
+            this.Controls.Add(this.addNewConta);
             this.Controls.Add(this.valorTransfereBox);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.tranferenciaCombo);
@@ -152,5 +164,6 @@
         private System.Windows.Forms.ComboBox tranferenciaCombo;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.TextBox valorTransfereBox;
+        private System.Windows.Forms.Button addNewConta;
     }
 }

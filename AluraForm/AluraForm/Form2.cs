@@ -1,22 +1,21 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using Caelum.CaixaEletronico.Contas;
+using Caelum.CaixaEletronico.Usuarios;
+using Caelum.CaixaEletronico.Exceptions;
+using System.Collections.Generic;
+using System.Collections;
+using AluraForm;
 
-namespace AluraForm {
+namespace Caelum.CaixaEletronico {
     public partial class Form2 : Form {
 
-        private Conta[] Contas { get; set; }
+        private List<Conta> contas { get; set; }
 
         private Conta ContaSelecionada {
 
             get {
-                return this.Contas[contasCombo.SelectedIndex];
+                return this.contas[contasCombo.SelectedIndex];
             }
 
         }
@@ -24,23 +23,22 @@ namespace AluraForm {
         private Conta ContaTranferenciaSelecionada {
 
             get {
-                return this.Contas[tranferenciaCombo.SelectedIndex];
+                return this.contas[tranferenciaCombo.SelectedIndex];
             }
 
         }
 
         public Form2() {
+            this.contas = new List<Conta>();
             InitializeComponent();
         }
 
         private void Form2_Load(object sender, EventArgs e) {
 
-            Contas = new Conta[2];
+            contas.Add( new Conta(100, new Cliente("Marcus"), 2000.0) );
+            contas.Add( new Conta(101, new Cliente("Vinicius"), 1200.0) );
 
-            Contas[0] = new Conta(100, new Cliente("Marcus"), 2000.0);
-            Contas[1] = new Conta(101, new Cliente("Vinicius"), 1200.0);
-
-            foreach (Conta conta in this.Contas) {
+            foreach (Conta conta in this.contas) {
                 contasCombo.Items.Add(conta.TitularNome);
                 tranferenciaCombo.Items.Add(conta.TitularNome);
             }
@@ -66,7 +64,7 @@ namespace AluraForm {
                 saldoBox.Text = Convert.ToString(ContaSelecionada.Saldo);
                 valorBox.Text = "";
 
-            } catch (FormatException ex) {
+            } catch (FormatException) {
                 MessageBox.Show("Valor não esta dentro dos padrões, digite um numero.");
                 valorBox.Text = "";
             }
@@ -82,9 +80,18 @@ namespace AluraForm {
                 saldoBox.Text = Convert.ToString(ContaSelecionada.Saldo);
                 valorBox.Text = "";
 
-            } catch (FormatException ex) {
+                MessageBox.Show("Dinheiro Liberado.");
+
+            } catch (FormatException) {
                 MessageBox.Show("Valor não esta dentro dos padrões, digite um numero.");
                 valorBox.Text = "";
+
+            } catch (ArgumentException) {
+                MessageBox.Show("Não é permitido valores menores que 0.");
+
+            } catch (SaldoInsuficienteException) {
+                MessageBox.Show("Saldo insuficiente.");
+
             }
 
         }
@@ -104,13 +111,25 @@ namespace AluraForm {
                     MessageBox.Show("Você não pode fazer uma transferencia para a mesma conta.");
                 }
 
-            } catch (FormatException ex) {
+            } catch (FormatException) {
                 MessageBox.Show("Valor não esta dentro dos padrões, digite um numero.");
                 valorBox.Text = "";
-            } catch (IndexOutOfRangeException ex) {
+            } catch (IndexOutOfRangeException) {
                 MessageBox.Show("Algum dos campos de conta não está preenchido.");
             }
 
+        }
+
+        public void addConta(Conta conta) {
+
+            this.contas.Add(conta);
+            contasCombo.Items.Add(conta.TitularNome);
+            tranferenciaCombo.Items.Add(conta.TitularNome);
+
+        }
+
+        private void addNewConta_Click(object sender, EventArgs e) {
+            new CadastroDeConta(this).ShowDialog();
         }
     }
 }

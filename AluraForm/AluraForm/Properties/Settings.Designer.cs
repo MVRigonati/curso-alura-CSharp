@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace AluraForm.Properties {
+namespace CaelumCaixaEletronico.Properties {
 
 
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]

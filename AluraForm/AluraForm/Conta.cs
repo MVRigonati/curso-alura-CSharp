@@ -1,11 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Caelum.CaixaEletronico.Usuarios;
+using Caelum.CaixaEletronico.Exceptions;
 
-namespace AluraForm {
-    class Conta {
+namespace Caelum.CaixaEletronico.Contas {
+    public class Conta {
 
         public int Numero { get; set; }
         public double Saldo { get; private set; }
@@ -27,6 +25,14 @@ namespace AluraForm {
         public double Saca(double valor) {
 
             double limite = valor;
+
+            if (valor < 0) {
+                throw new ArgumentException();
+
+            } else if (valor > this.Saldo) {
+                throw new SaldoInsuficienteException();
+
+            }
 
             if ( !this.Titular.IsMaiorDeIdade() ) {
                 limite = 200.0;
