@@ -30,6 +30,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.contaTitular = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.contaTipo = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // contaNumero
@@ -44,14 +46,14 @@
             this.contaSaldo.Location = new System.Drawing.Point(91, 97);
             this.contaSaldo.Name = "contaSaldo";
             this.contaSaldo.Size = new System.Drawing.Size(100, 20);
-            this.contaSaldo.TabIndex = 1;
+            this.contaSaldo.TabIndex = 2;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(91, 155);
+            this.button1.Location = new System.Drawing.Point(91, 178);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 2;
+            this.button1.TabIndex = 6;
             this.button1.Text = "Adicionar";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -79,7 +81,7 @@
             this.contaTitular.Location = new System.Drawing.Point(91, 71);
             this.contaTitular.Name = "contaTitular";
             this.contaTitular.Size = new System.Drawing.Size(100, 20);
-            this.contaTitular.TabIndex = 5;
+            this.contaTitular.TabIndex = 1;
             // 
             // label3
             // 
@@ -90,11 +92,33 @@
             this.label3.TabIndex = 6;
             this.label3.Text = "Titular:";
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(28, 126);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(31, 13);
+            this.label4.TabIndex = 8;
+            this.label4.Text = "Tipo:";
+            // 
+            // contaTipo
+            // 
+            this.contaTipo.FormattingEnabled = true;
+            this.contaTipo.Items.AddRange(new object[] {
+            "Conta Corrente",
+            "Conta Poupança"});
+            this.contaTipo.Location = new System.Drawing.Point(91, 126);
+            this.contaTipo.Name = "contaTipo";
+            this.contaTipo.Size = new System.Drawing.Size(100, 21);
+            this.contaTipo.TabIndex = 9;
+            // 
             // CadastroDeConta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 262);
+            this.Controls.Add(this.contaTipo);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.contaTitular);
             this.Controls.Add(this.label2);
@@ -118,5 +142,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox contaTitular;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.ComboBox contaTipo;
     }
 }

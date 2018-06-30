@@ -2,14 +2,15 @@
 using System.Windows.Forms;
 
 namespace AluraForm {
-    public partial class Form3 : Form {
+    public partial class Equals_toString_test : Form {
 
-        public Form3() {
+        public Equals_toString_test() {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, System.EventArgs e) {
 
+            // Teste de herança
             Cliente cliente = new Cliente("Marcus");
             cliente.RG = "53.689.712-8";
 

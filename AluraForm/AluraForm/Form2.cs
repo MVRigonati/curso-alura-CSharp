@@ -4,7 +4,6 @@ using Caelum.CaixaEletronico.Contas;
 using Caelum.CaixaEletronico.Usuarios;
 using Caelum.CaixaEletronico.Exceptions;
 using System.Collections.Generic;
-using System.Collections;
 using AluraForm;
 
 namespace Caelum.CaixaEletronico {
@@ -21,7 +20,7 @@ namespace Caelum.CaixaEletronico {
         }
 
         private Conta ContaTranferenciaSelecionada {
-
+            
             get {
                 return this.contas[tranferenciaCombo.SelectedIndex];
             }
@@ -131,5 +130,6 @@ namespace Caelum.CaixaEletronico {
         private void addNewConta_Click(object sender, EventArgs e) {
             new CadastroDeConta(this).ShowDialog();
         }
+
     }
 }

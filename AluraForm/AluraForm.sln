@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AluraForm", "AluraForm\AluraForm.csproj", "{F3808274-DFAD-4153-84BB-BB449C1D36A7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils", "Utils\Utils.csproj", "{C9CBCCB9-15F3-4032-8FE6-FA7AE8879B87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ_Lambda", "LINQ_Lambda\LINQ_Lambda.csproj", "{4C92C03A-8797-4A40-AE64-1F18FC7BEE67}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{F3808274-DFAD-4153-84BB-BB449C1D36A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3808274-DFAD-4153-84BB-BB449C1D36A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3808274-DFAD-4153-84BB-BB449C1D36A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9CBCCB9-15F3-4032-8FE6-FA7AE8879B87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9CBCCB9-15F3-4032-8FE6-FA7AE8879B87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9CBCCB9-15F3-4032-8FE6-FA7AE8879B87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9CBCCB9-15F3-4032-8FE6-FA7AE8879B87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C92C03A-8797-4A40-AE64-1F18FC7BEE67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C92C03A-8797-4A40-AE64-1F18FC7BEE67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C92C03A-8797-4A40-AE64-1F18FC7BEE67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C92C03A-8797-4A40-AE64-1F18FC7BEE67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

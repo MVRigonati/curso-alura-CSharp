@@ -1,0 +1,7 @@
+C:\Users\Acer\Documents\Códigos\C#\curso-alura-CSharp\AluraForm\LINQ_Lambda\bin\Debug\LINQ_Lambda.exe.config
+C:\Users\Acer\Documents\Códigos\C#\curso-alura-CSharp\AluraForm\LINQ_Lambda\bin\Debug\LINQ_Lambda.exe
+C:\Users\Acer\Documents\Códigos\C#\curso-alura-CSharp\AluraForm\LINQ_Lambda\bin\Debug\LINQ_Lambda.pdb
+C:\Users\Acer\Documents\Códigos\C#\curso-alura-CSharp\AluraForm\LINQ_Lambda\obj\Debug\LINQ_Lambda.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Documents\Códigos\C#\curso-alura-CSharp\AluraForm\LINQ_Lambda\obj\Debug\LINQ_Lambda.exe
+C:\Users\Acer\Documents\Códigos\C#\curso-alura-CSharp\AluraForm\LINQ_Lambda\obj\Debug\LINQ_Lambda.pdb
+C:\Users\Acer\Documents\Códigos\C#\curso-alura-CSharp\AluraForm\LINQ_Lambda\obj\Debug\LINQ_Lambda.csprojResolveAssemblyReference.cache

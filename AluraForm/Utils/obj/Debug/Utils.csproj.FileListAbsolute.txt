@@ -1,0 +1,13 @@
+C:\Users\Acer\Documents\Códigos\C#\curso-alura-CSharp\AluraForm\Utils\bin\Debug\Utils.exe.config
+C:\Users\Acer\Documents\Códigos\C#\curso-alura-CSharp\AluraForm\Utils\bin\Debug\Utils.exe
+C:\Users\Acer\Documents\Códigos\C#\curso-alura-CSharp\AluraForm\Utils\bin\Debug\Utils.pdb
+C:\Users\Acer\Documents\Códigos\C#\curso-alura-CSharp\AluraForm\Utils\obj\Debug\Utils.Collections.resources
+C:\Users\Acer\Documents\Códigos\C#\curso-alura-CSharp\AluraForm\Utils\obj\Debug\AluraForm.Equals_toString_test.resources
+C:\Users\Acer\Documents\Códigos\C#\curso-alura-CSharp\AluraForm\Utils\obj\Debug\Utils.Properties.Resources.resources
+C:\Users\Acer\Documents\Códigos\C#\curso-alura-CSharp\AluraForm\Utils\obj\Debug\Utils.csproj.GenerateResource.Cache
+C:\Users\Acer\Documents\Códigos\C#\curso-alura-CSharp\AluraForm\Utils\obj\Debug\Utils.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Documents\Códigos\C#\curso-alura-CSharp\AluraForm\Utils\obj\Debug\Utils.exe
+C:\Users\Acer\Documents\Códigos\C#\curso-alura-CSharp\AluraForm\Utils\obj\Debug\Utils.pdb
+C:\Users\Acer\Documents\Códigos\C#\curso-alura-CSharp\AluraForm\Utils\obj\Debug\Utils.csprojResolveAssemblyReference.cache
+C:\Users\Acer\Documents\Códigos\C#\curso-alura-CSharp\AluraForm\Utils\obj\Debug\Utils.SystemIO.resources
+C:\Users\Acer\Documents\Códigos\C#\curso-alura-CSharp\AluraForm\Utils\obj\Debug\Utils.ExtensionMethods_Form.resources

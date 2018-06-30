@@ -63,7 +63,7 @@ namespace Caelum.CaixaEletronico.Contas {
             try {
                 destino.Deposita( this.Saca(valor) );
                 return true;
-            } catch (NullReferenceException ex) {
+            } catch (NullReferenceException) {
                 return false;
             }
 
